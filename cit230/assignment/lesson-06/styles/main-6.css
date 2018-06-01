@@ -52,7 +52,7 @@ nav ul {
 }
 
 nav ul li{
-display: inline;
+    display: inline;
 }
 nav ul li a {
     display: block;
@@ -117,8 +117,6 @@ footer {
     color: #B6B7B7;
     font-size: 1em;
 }
-
-
 .contact{
     background-color: #AFDBF9;
     text-align: center;
