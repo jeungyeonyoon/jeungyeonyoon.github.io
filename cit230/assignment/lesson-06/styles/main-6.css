@@ -24,6 +24,10 @@ header h1 {
     
 }
 
+nav ul.hide{
+    display: none;
+}
+
 
 h2{
     font-size: 1.7em;
@@ -68,6 +72,7 @@ nav ul li a:hover{
 
 }
 
+
 .forecast{
     display: none;
 } 
@@ -86,6 +91,10 @@ main {
 }
 main h2 {}
 main figure { margin: 0 0 .2rem 2%; width:96%; }
+
+main figure.myphoto{
+}
+main figure.myphoto img{ width: 100%;}
 main figure img { }
 
 footer {

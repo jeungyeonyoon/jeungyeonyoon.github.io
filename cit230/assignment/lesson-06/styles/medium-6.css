@@ -1,4 +1,4 @@
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 37.5em) {
 
     /* Only CSS write declarations that need to be changed. Do not duplicated declarations that are already established in the main.css */
     
@@ -7,7 +7,7 @@
     section.forecast { 
     display: block;} 
 
-  }
+  
 
 ul {list-style-type: none;
     margin: 0;
@@ -26,4 +26,12 @@ li a {display: block;
 }
 li a:hover{
     background-color: #111;
+    
+}
+ nav ul.hide{
+        display:block;
+    } 
+.hamburger{
+        display: none;
+    }
 }
