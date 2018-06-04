@@ -7,7 +7,7 @@ var dayOfWeekString = weekDays[dayOfWeek];
 
 var dayOfMonth = myDate.getDate();
 
-var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November","Devember"];
+var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November","December"];
 var month = myDate.getMonth();
 var monthString = months[month];
 
