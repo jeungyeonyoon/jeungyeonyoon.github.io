@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Franklin Weather Forecast</title>
+    <link href="https://fonts.googleapis.com/css?family=Tajawal" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize-6.css">
+    <link rel="stylesheet" href="styles/main-7.css">
+    <link rel="stylesheet" href="styles/medium-7.css">
+    <link rel="stylesheet" href="styles/large-7.css">
+
+
+</head>
+
+<body>
+    <header>
+        <div class="aligncenter">
+            <img src="images/logo2.png" alt="logo" width="100%"></div>
+    </header>
+    <nav>
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="navMenu" class="hide">
+            <li><a href="franklin-7.html">Home</a></li>
+            <li class="active"><a href="#">Franklin</a></li>
+            <li><a href="#">Greenville</a></li>
+            <li><a href="#">Springfield</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="gallery-7.html">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2>Franklin Weather</h2>
+        <figure class="myphoto">
+            <div class="aligncenter">
+                <img src="images/franklin-small.jpg" srcset="images/franklin-small2.jpg 400w,
+                images/franklin-medium2.jpg 800w,
+                images/franklin-large2.jpg 1200w">
+            </div>
+        </figure>
+
+        <section class="weather-summary">
+            <h3>Weather Summary</h3>
+            <div class="highlow">
+                <p>High: <b><span id="h">85</span>&deg;F</b></p>
+                <p>Low: <b><span id="l">60</span>&deg;F</b></p>
+            </div>
+            <div class="current">
+                Sunny
+                <picture>
+                    <img src="images/sunny.png" alt="sunny" width="100px">
+                </picture>
+            </div>
+            <div class="conditions">
+                <p>Temperature: <span id="temperature"></span>&deg;F</p>
+                <p>Precipitation : 10</p>
+                <p>Wind Speed: <span id="windspeed">5</span></p>
+                <p>Wind Chill : <span id="windoutput"></span></p>
+            </div>
+        </section>
+
+        <section class="forecast">
+            <h3>10 Day Forecast</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Day 1</th>
+                        <th>Day 2</th>
+                        <th>Day 3</th>
+                        <th>Day 4</th>
+                        <th>Day 5</th>
+                        <th>Day 6</th>
+                        <th>Day 7</th>
+                        <th>Day 8</th>
+                        <th>Day 9</th>
+                        <th>Day 10</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>89&deg;F</td>
+                        <td>87&deg;F</td>
+                        <td>78&deg;F</td>
+                        <td>75&deg;F</td>
+                        <td>72&deg;F</td>
+                        <td>72&deg;F</td>
+                        <td>79&deg;F</td>
+                        <td>83&deg;F</td>
+                        <td>85&deg;F</td>
+                        <td>89&deg;F</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <article>
+            <div class="aligncenter">
+                <h3>Franklin Breaks Record</h3>
+                <img src="https://images.pexels.com/photos/258136/pexels-photo-258136.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="franklin2" width="100%">
+            </div>
+            <p class="town-article">
+            </p>
+        </article>
+
+    </main>
+
+    <footer>
+        <section class="contact">
+            Contact information placeholder<br> 999.999.9999
+            <br> 123 Main St. Anytown, US 99999<br> Google Map
+        </section>
+        <section class="footer-bar">&copy;2018 | All Rights Reserved |Weather Forecast| <span id="currentdate"></span>
+        </section>
+
+    </footer>
+    <script src="script/currentdate.js"></script>
+    <script src="script/hamburger.js"></script>
+    <script src="script/windchill.js">
+    </script>
+</body>
+</html>
