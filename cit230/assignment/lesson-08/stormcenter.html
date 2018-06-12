@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Franklin Weather Forecast</title>
+    <link href="https://fonts.googleapis.com/css?family=Tajawal" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/main-8.css">
+    <link rel="stylesheet" href="styles/medium-8.css">
+    <link rel="stylesheet" href="styles/large-8.css">
+
+
+</head>
+
+<body>
+    <header>
+        <div class="aligncenter">
+            <img src="images/logo2.png" alt="logo" width="100%"></div>
+    </header>
+    <nav>
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="navMenu" class="hide">
+            <li><a href="franklin-8.html">Home</a></li>
+            <li><a href="franklin-8.html">Franklin</a></li>
+            <li><a href="#">Greenville</a></li>
+            <li><a href="#">Springfield</a></li>
+            <li class="active"><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="gallery-7.html">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <label for="text">Full Name:</label><input type="text"><br>
+
+        <label for="email">eMail:</label>
+
+        <input type="email" name="email" required><br>
+        <label for="p">Phone Number:</label>
+        <input type="tel" name="p" required placeholder="###-###-####"><br>
+        <label for="zipcode">Zip code:</label><input type="number"><br>
+        <label for="stormdate">Storm Date:</label><input type="date"><br>
+        <label for="stormtype">Storm Type:</label><input type="datalist">
+
+        <!--
+        <label for="u">URL: </label>
+        <input type="url" name="u" value="http://www.ibm.com"><br>
+-->
+<br>
+        <label for="rating">Storm Severity (1 to 10)</label>
+        <input type="range" id="rating" value="5" min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+        <span id="ratingvalue">5</span><br>
+        <label for="region">Strom Region:</label><input type="">
+    </main>
+
+    <footer>
+        <section class="contact">
+            Contact information placeholder<br> 999.999.9999
+            <br> 123 Main St. Anytown, US 99999<br> Google Map
+        </section>
+        <section class="footer-bar">&copy;2018 | All Rights Reserved |Weather Forecast| <span id="currentdate"></span>
+        </section>
+
+    </footer>
+    <script src="script/currentdate.js"></script>
+    <script src="script/hamburger.js"></script>
+    <script src="script/windchill.js">
+    </script>
+</body>
+</html>
