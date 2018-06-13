@@ -76,3 +76,7 @@ tfoot td {
     padding: 5px;
     font-size: 13px;
 }
+
+.italic{
+    font-style: italic;
+}
