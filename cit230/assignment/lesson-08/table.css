@@ -65,10 +65,10 @@ tfoot {
 }
 
 tfoot td {
-    padding: 5px;
+    padding: 8px;
     font-size: 13px;
 }
 
-.italic {
+tbody tr:nth-child(5) td:nth-child(1){
     font-style: italic;
 }
