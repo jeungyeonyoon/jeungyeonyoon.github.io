@@ -184,7 +184,7 @@ tbody {
     background-color: #efefef;
 }
 
-/* grid */
+/* GRID */
 
 .grid-container {
     display: grid;
@@ -201,4 +201,80 @@ tbody {
 
 .grid-item img {
     width: 100%;
+}
+
+/*thanks css*/
+
+.thankstree {
+    width: 40%;
+    align-items: center;
+}
+
+
+/*STORM CENTER*/
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.center {
+    text-align: center;
+}
+
+.shadow {
+    width: 10%;
+    height: 30px;
+    background-color: whitesmoke;
+    background-image: none;
+    color: #315874;
+    font-size:
+}
+
+/*save button*/
+
+.shadow:hover {
+    box-shadow: 5px 5px 2px;
+    background-color: slategray;
+    color: wheat;
+}
+
+fieldset {
+    line-height: 40px;
+    width: 100%;
+    padding-left: 20px;
+    border-radius: 10px;
+    border: 2px dotted lightgray;
+    background-image: url(../images/tree1-05-05.jpg);
+    background-size: cover;
+
+}
+
+
+/*
+.form-container :first-child{
+    margin-right: 10px;
+}
+*/
+
+legend {
+    font-size: 20px;
+    font-weight: bolder;
+    border: 2px solid lightgray;
+    border-radius: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: aliceblue;
+}
+
+input {
+    background-image: url(../images/logo2.png);
+    background-size: cover;
+}
+
+
+
+main h1 {
+    text-align: center;
 }
