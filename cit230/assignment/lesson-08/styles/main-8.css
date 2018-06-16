@@ -175,7 +175,7 @@ table {
     margin: 0 auto;
     background-color: #b6b7b7;
     border: 1px solid;
-    border-color: #b6b7b7;
+    border-color: #b6b7b8;
     width: 90%;
     height: 3em;
 }
@@ -229,7 +229,7 @@ tbody {
     background-color: whitesmoke;
     background-image: none;
     color: #315874;
-    font-size:
+  
 }
 
 /*save button*/
