@@ -15,9 +15,9 @@
 </head>
 
 <body>
-    <header>
-        <div class="aligncenter">
-            <img src="images/logo2.png" alt="logo" width="100%"></div>
+    <header> 
+        <div class="aligncentera">
+            <img src="images/logo2.png" alt="logo"></div>
     </header>
     <nav>
         <button onclick="toggleMenu()">&#9776;</button>
@@ -38,19 +38,19 @@
                 <fieldset>
                     <legend>Personal Information</legend>
 
-                    <label for="fullName">Full Name: </label>
+                    <label>Full Name: </label>
                     <input type="text" id="fullName" name="fullName" title="A minimun of five characters required" pattern="[A-Za-z -]{5,}" required>
                     <br>
-                    <label for="p">Phone Number: </label>
+                    <label>Phone Number: </label>
                     <input type="tel" name="p" required placeholder="###-###-####">
                     <br>
 
-                    <label for="zipcode">Zip code: </label><input type="number" required>
+                    <label>Zip code: </label><input type="number" required>
                     <br>
 
-                    <label for="email">Email: </label>
+                    <label>Email: </label>
                     <input type="email" placeholder="name@domai.com">
-                         <label for="comments"></label><br>
+                         <label></label><br>
 <!--                    <textarea name="message" rows="10" cols="35" placeholder="Please type any information." class="textcomment">Please add more information.</textarea>-->
 
                 </fieldset>
@@ -59,11 +59,11 @@
                 <fieldset>
                     <legend>Storm Information</legend>
 
-                    <label for="date">Storm Date:</label>
+                    <label>Storm Date:</label>
                     <input type="date" name="date" title="Put the storm date">
                     <br>
 
-                    <label for="list">Storm Type: 
+                    <label>Storm Type: 
                     <input type="text" name="stormtype" list="stormtypelist">
                     
                     <datalist id="stormtypelist">
@@ -76,12 +76,12 @@
                     </datalist></label>
                     <br>
 
-                    <label for="rating">Storm Severity (1 to 10)</label>
+                    <label>Storm Severity (1 to 10)</label>
 
                     <span id="ratingvalue">1</span>
                     <input type="range" name="stormrating" id="rating" value="5" min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
                     <span id="stormrating">10</span><br>
-                    <label for="region">Strom Region:</label>
+                    <label>Strom Region:</label>
                     <select name="stormregion">
                     <option value="" selected disabled hidden>Choose here</option>
                         <option value="Franklin">Franklin</option>
@@ -99,7 +99,7 @@
                     <br>
 
 
-                    <label for="comments">Comments</label><br>
+                    <label>Comments</label><br>
                     <textarea name="message" rows="10"  placeholder="Please type any information.">Please add more information.</textarea>
                 </fieldset>
             </div>

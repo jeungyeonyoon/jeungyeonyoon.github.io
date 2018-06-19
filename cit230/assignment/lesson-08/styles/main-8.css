@@ -119,9 +119,13 @@ footer {}
 
 .aligncenter {
     text-align: center;
-
 }
 
+/*logo*/
+.aligncentera img {
+    text-align: center;
+    width: 100%;
+}
 .main-image {
     width: 500px;
 }

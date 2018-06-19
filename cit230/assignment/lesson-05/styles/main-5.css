@@ -1,17 +1,25 @@
 /* Delete these CSS comments after reading. */
+
 /* This main css file contains the default rules and is geared toward the small/phone view */
 
-* { box-sizing: border-box;}  /* This wildcard applies to all elements ensuring a box layout model */
-
-body {
-  font-size: 16px;
-  font-family: 'Tajawal', sans-serif;
+* {
+    box-sizing: border-box;
 }
 
-header, nav, main, footer { 
+/* This wildcard applies to all elements ensuring a box layout model */
+
+body {
+    font-size: 16px;
+    font-family: 'Tajawal', sans-serif;
+}
+
+header,
+nav,
+main,
+footer {
     margin: auto;
     /* the comma between the selectors means apply the following CSS declarations to all of the listed elements */
-  max-width: 1000px;
+    max-width: 1000px;
     /* Declare the maximum width and other main element rules to limit the stretch on larger/wider views */
 }
 
@@ -19,25 +27,28 @@ header, nav, main, footer {
 header {
     font-family: 'Tajawal', sans-serif;
 }
+
 header h1 {
     font-family: 'Tajawal', sans-serif;
-    
+
 }
 
 
-h2{
+h2 {
     font-size: 1.7em;
     text-align: center;
     color: #315874;
 }
 
-h3{
+h3 {
     font-size: 1.5em;
     color: #1a4c6b;
 }
+
 header img {
     padding-top: 1.2em;
 }
+
 header .subheading {}
 
 
@@ -51,9 +62,10 @@ nav ul {
     border-radius: 15px;
 }
 
-nav ul li{
-display: inline;
+nav ul li {
+    display: inline;
 }
+
 nav ul li a {
     display: block;
     color: white;
@@ -62,64 +74,81 @@ nav ul li a {
     font-size: 1em;
     align-items: center;
 }
-nav ul li a:hover{
+
+nav ul li a:hover {
     background-color: #d4d8d9;
-       border-radius: 15px;
+    border-radius: 15px;
 
 }
 
-.forecast{
+.forecast {
     display: none;
-} 
+}
 
 nav ul li.active a {
-     background-color: #315874;
-     border-radius: 15px;
-    
+    background-color: #315874;
+    border-radius: 15px;
+
 }
 
 nav ul li a:hover {
-     background-color: #315874;
+    background-color: #315874;
 }
 
-main {
-}
+main {}
+
 main h2 {}
-main figure { margin: 0 0 .2rem 2%; width:96%; }
-main figure img { }
 
-footer {
+main figure {
+    margin: 0 0 .2rem 2%;
+    width: 96%;
 }
 
-.aligncenter{
+main figure img {}
+
+footer {}
+
+.aligncenter {
     text-align: center;
-    
 }
-.main-image{
+
+.aligncentera img {
+    width: 100%;
+    text-align: center;
+}
+
+.main-image {
     width: 500px;
 }
-.weather-summary{
+
+.weather-summary {
     text-align: center;
-    
+
 }
-.current{
+
+.current {
     color: #F2D02A;
     font-size: 2em;
     font-family: cursive;
 }
-.highlow{
+
+.current img {
+    width: 100px;
+}
+
+.highlow {
     font-size: 1em;
     color: #315874;
     margin-top: -0.5em;
 }
 
-.conditions{
+.conditions {
     color: #B6B7B7;
     font-size: 1em;
 }
 
 
-.contact{
+.contact {
     background-color: #AFDBF9;
     text-align: center;
     overflow: hidden;
@@ -128,16 +157,18 @@ footer {
     border-radius: 15px;
     color: #315874;
 }
-.footer-bar{
+
+.footer-bar {
     text-align: center;
     color: #b6b7b7;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
     margin-bottom: 1em;
 }
-.forecast{
+
+.forecast {
     text-align: center;
-    
+
 }
 
 table {
@@ -148,9 +179,10 @@ table {
     width: 90%;
     height: 3em;
 
-    
-    
-} 
-tbody{
+
+
+}
+
+tbody {
     background-color: #efefef;
 }
