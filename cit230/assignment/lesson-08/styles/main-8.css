@@ -122,10 +122,12 @@ footer {}
 }
 
 /*logo*/
+
 .aligncentera img {
     text-align: center;
     width: 100%;
 }
+
 .main-image {
     width: 500px;
 }
@@ -139,6 +141,10 @@ footer {}
     color: #F2D02A;
     font-size: 2em;
     font-family: cursive;
+}
+
+.current img {
+    width: 100px;
 }
 
 .highlow {
@@ -233,7 +239,7 @@ tbody {
     background-color: whitesmoke;
     background-image: none;
     color: #315874;
-  
+
 }
 
 /*save button*/
