@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Franklin Weather Forecast</title>
+    <link href="https://fonts.googleapis.com/css?family=Tajawal" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/main-9.css">
+    <link rel="stylesheet" href="styles/medium-9.css">
+    <link rel="stylesheet" href="styles/large-9.css">
+
+
+</head>
+
+<body>
+    <header> 
+        <div class="aligncentera">
+            <img src="images/logo2.png" alt="logo"></div>
+    </header>
+    <nav>
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="navMenu" class="hide">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="franklin-9.html">Franklin</a></li>
+            <li><a href="greenville-9.html">Greenville</a></li>
+            <li><a href="springfield-9.html">Springfield</a></li>
+            <li class="active"><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="gallery-9.html">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1>Report the Weather</h1>
+        <form action="thanks.html" method="get">
+            <div class="form-container">
+                <fieldset>
+                    <legend>Personal Information</legend>
+
+                    <label>Full Name: </label>
+                    <input type="text" id="fullName" name="fullName" title="A minimun of five characters required" pattern="[A-Za-z -]{5,}" required>
+                    <br>
+                    <label>Phone Number: </label>
+                    <input type="tel" name="p" required placeholder="###-###-####">
+                    <br>
+
+                    <label>Zip code: </label><input type="number" required>
+                    <br>
+
+                    <label>Email: </label>
+                    <input type="email" placeholder="name@domai.com">
+                         <label></label><br>
+<!--                    <textarea name="message" rows="10" cols="35" placeholder="Please type any information." class="textcomment">Please add more information.</textarea>-->
+
+                </fieldset>
+
+
+                <fieldset>
+                    <legend>Storm Information</legend>
+
+                    <label>Storm Date:</label>
+                    <input type="date" name="date" title="Put the storm date">
+                    <br>
+
+                    <label>Storm Type: 
+                    <input type="text" name="stormtype" list="stormtypelist">
+                    
+                    <datalist id="stormtypelist">
+                        
+                    <option value="Flash Flood"></option>
+                    <option value="Hail"></option>
+                    <option value="Hurricane"></option>
+                    <option value="Thunderstrom"></option>
+                    <option value="Tornado"></option>
+                    </datalist></label>
+                    <br>
+
+                    <label>Storm Severity (1 to 10)</label>
+
+                    <span id="ratingvalue">1</span>
+                    <input type="range" name="stormrating" id="rating" value="5" min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                    <span id="stormrating">10</span><br>
+                    <label>Strom Region:</label>
+                    <select name="stormregion">
+                    <option value="" selected disabled hidden>Choose here</option>
+                        <option value="Franklin">Franklin</option>
+                    <option value="Greenville">Greenville</option>
+                    <option value="Springfiled">Springfield</option>
+                        </select>
+                    <br>
+
+
+                    <span>Are you in danger?</span><br>
+                    <input type="radio" id="yes" name="danger" value="yes" required><label for="yes">Yes</label>
+                    <input type="radio" id="no" name="danger" value="no" required>
+                    <label for="no">No</label>
+                    <input type="radio" id="maybe" name="danger" value="maybe" required><label for="maybe">Maybe</label>
+                    <br>
+
+
+                    <label>Comments</label><br>
+                    <textarea name="message" rows="10"  placeholder="Please type any information.">Please add more information.</textarea>
+                </fieldset>
+            </div>
+            <br>
+            <div class="center"> <input type="submit" value="save" class="shadow"></div>
+
+            <br>
+        </form>
+    </main>
+
+    <footer>
+        <section class="contact">
+            Contact information placeholder<br> 999.999.9999
+            <br> 123 Main St. Anytown, US 99999<br> Google Map
+        </section>
+        <section class="footer-bar">&copy;2018 | All Rights Reserved |Weather Forecast| <span id="currentdate"></span>
+        </section>
+
+    </footer>
+    <script src="script/currentdate.js"></script>
+    <script src="script/hamburger.js"></script>
+    <script src="script/windchill.js"></script>
+    <script src="script/rating.js">
+    </script>
+</body>
+
+</html>
