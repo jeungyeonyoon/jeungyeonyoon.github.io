@@ -110,8 +110,8 @@ main figure {
 main figure.myphoto {}
 
 main figure.myphoto img {
-/*    width: 100%;*/
-    max-width: 100%;
+
+   width: 100%;
 }
 
 
