@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head w3-include-html="modules/head.html">
+<!--
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Tajawal" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/main-9.css">
+    <link rel="stylesheet" href="styles/medium-9.css">
+    <link rel="stylesheet" href="styles/large-9.css">
+-->
+
+    <title>Home Weather Site</title>
+</head>
+
+<body>
+    <header w3-include-html="modules/header.html">
+<!--
+        <div class="aligncentera">
+            <img src="images/logo2.png" alt="logo"></div>
+-->
+    </header>
+    <nav  w3-include-html="modules/nav.html">
+<!--
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="navMenu" class="hide">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="franklin.html">Franklin</a></li>
+            <li><a href="greenville.html">Greenville</a></li>
+            <li><a href="springfield.html">Springfield</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+-->
+    </nav>
+
+    <main>
+        <h2>Weather</h2>
+        <!--
+        <div class="leftcol">
+            <h3>Weather Story</h3>
+            <br>
+            <p>fjdksfljsldkfjskldfjlkfsfsdfsdfdsfsdfsjdflfjklsdasdfghjzxcvbsdfghdfghjf</p>
+        </div>
+-->
+        <figure class="myphoto">
+            <div class="aligncenter">
+                <img src="images/franklin-small.jpg" srcset="images/franklin-small2.jpg 400w,
+                images/franklin-medium2.jpg 800w,
+                images/franklin-large2.jpg 1200w">
+            </div>
+        </figure>
+
+
+        <!--This is where we are going to put our json information for the three cities-->
+        <section class="cities">
+
+        </section><br>
+    </main>
+
+    <footer  w3-include-html="modules/footer.html">
+<!--
+        <section class="contact">
+            Contact information placeholder<br> 999.999.9999
+            <br> 123 Main St. Anytown, US 99999<br> Google Map
+        </section>
+        <section class="footer-bar">&copy;2018 | All Rights Reserved |Weather Forecast| <span id="currentdate"></span>
+        </section>
+-->
+    </footer>
+    <script src="script/currentdate.js"></script>
+    <script src="script/hamburger.js"></script>
+    <script src="script/windchill.js"></script>
+    <script src="script/franklin.js"></script>
+    <script src='script/wu-weather.js'></script>
+
+    <script src="script/w3.js"></script>
+    <script src="script/wayfinding.js"></script>
+    <script src="script/modularize.js"></script>
+</body>
+
+</html>
