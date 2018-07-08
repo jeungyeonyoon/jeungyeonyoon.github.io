@@ -65,12 +65,12 @@
             
             $(function(){
                 var nameVal = $('input[name="nameVal"]');
-                function FillEmpty(){
+                function fillEmpty(){
                 if( nameVal.val() == ''){
                     nameVal.val( 'John Doe' );
                 }
             }
-              $('#ReqAQuoteBtn').click( FillEmpty);
+              $('#ReqAQuoteBtn').click(fillEmpty);
             })
             
         })
