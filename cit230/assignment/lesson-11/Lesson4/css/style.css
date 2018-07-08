@@ -156,8 +156,9 @@ body {
 .contentBoxes {
 	position:relative;
 	width:958px;
-	height:365px;
+	height:400px;
 	top:350px;
+    
 }
 
 .boxes {
@@ -284,5 +285,6 @@ body {
     justify-content: flex-end;
     text-align: center;
     padding-right: 20px;
+    margin-bottom: 100px;
 }
 
