@@ -5,4 +5,10 @@ w3.includeHTML(function()
     
     // call function to set active link
     setActiveLink();
+    
+    // call function to get weather
+    getWeather();
+    
+    //
+    setWindchill();
 });
