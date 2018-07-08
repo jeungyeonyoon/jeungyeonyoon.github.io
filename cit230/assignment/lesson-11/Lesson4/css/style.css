@@ -264,6 +264,15 @@ body {
 	background:rgba(0, 167, 255, 0.86);
 }
 
+.rightcol{
+    display: flex;
+    align-content: center;
+    justify-content: flex-end;
+    text-align: center;
+    padding-right: 20px;
+    margin-bottom: 100px;
+}
+
 .footer h5 {
 	position: absolute;
 	top: 8px;
@@ -279,12 +288,5 @@ body {
 	color:inherit;
 }
 
-.rightcol{
-    display: flex;
-    align-content: center;
-    justify-content: flex-end;
-    text-align: center;
-    padding-right: 20px;
-    margin-bottom: 100px;
-}
+
 
