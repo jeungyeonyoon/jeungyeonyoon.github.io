@@ -48,7 +48,7 @@
             //            $('li:last').css('background-color', 'rgb(248, 95, 95)');
             //            $('.header').children().css('background-color', 'rgba(255, 0, 0, 0.2)');
 
-            togglestyle = function() {
+            togglestyle = function(){
                 if ($('input[type="text"]').css('backgrond-color') === 'rgb(255, 0, 0)') {
                     $('input[type="text"').css('background-color', 'rgb(255, 255, 255)');
                 } else {
@@ -58,10 +58,10 @@
 
             $('#ReqAQuoteBtn').click(togglestyle);
 
-            $(function() {
+            $(function(){
                 $('.coreValues').prepend("<li><strong>This is brand new !! </strong><li>");
                 $("<li><strong>This is also great !!</strong></li>").prependTo(".coreValues");            
-            })
+            });
             
             $(function(){
                 var nameVal = $('input[name="nameVal"]');
