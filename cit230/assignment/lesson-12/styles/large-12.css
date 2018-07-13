@@ -1,0 +1,55 @@
+@media only screen and (min-width: 64em) {
+
+    /*
+ nav ul.hide {
+        display: block;
+    } 
+*/
+    .hamburger {
+        display: none;
+    }
+    nav ul li a {
+        font-size: 1.2em;
+    }
+    /*GRID*/
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .grid-item:hover {
+        box-shadow: 5px 5px 5px gray;
+    }
+    .cities {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .cities img {
+        width: 46%;
+        height: 50%;
+    }
+    .cities div {
+        width: 50%;
+        padding: 10px;
+    }
+
+    .cities h5 {
+        margin: 0;
+    }
+    .articleCity {
+        display: flex;
+        flex-direction: column;
+    }
+    .cities :nth-child(even) {
+        display: flex;
+        flex-direction: column;
+    }
+    .ImgDiv img {
+        border-radius: 10px;
+    }
+    .contact {
+        padding-top: 2.6em;
+        padding-bottom: 2.6em;
+        font-size: 20px;
+    }
+}

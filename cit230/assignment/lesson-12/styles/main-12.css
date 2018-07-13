@@ -1,0 +1,400 @@
+/* Delete these CSS comments after reading. */
+
+/* This main css file contains the default rules and is geared toward the small/phone view */
+
+* {
+    box-sizing: border-box;
+}
+
+/* This wildcard applies to all elements ensuring a box layout model */
+
+body {
+    font-size: 18px;
+    font-family: 'Poiret One', cursive;
+    ;
+}
+
+header,
+nav,
+main,
+footer {
+    margin: auto;
+    /* the comma between the selectors means apply the following CSS declarations to all of the listed elements */
+    max-width: 1000px;
+    /* Declare the maximum width and other main element rules to limit the stretch on larger/wider views */
+}
+
+
+header {
+    font-family: 'Tajawal', sans-serif;
+}
+
+header h1 {
+    font-family: 'Tajawal', sans-serif;
+
+}
+
+nav ul.hide {
+    display: none;
+}
+
+
+h2 {
+    font-size: 1.7em;
+    text-align: center;
+    color: #315874;
+}
+
+h3 {
+    font-size: 1.5em;
+    color: #1a4c6b;
+}
+
+p {
+    font-size: 20px;
+}
+
+header img {
+    padding-top: 1.2em;
+}
+
+header .subheading {}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #5B768D;
+    border-radius: 25px;
+}
+
+
+
+nav ul li a {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1em;
+    align-items: center;
+}
+
+nav ul li a:hover {
+    background-color: #d4d8d9;
+    border-radius: 20px;
+
+}
+
+
+/*
+.forecast {
+    display: none;
+}
+*/
+
+nav ul li.active a {
+    background-color: #EFF3F3;
+    border-radius: 15px;
+    color: #5B768D;
+
+}
+
+nav ul li a:hover {
+    background-color: #315874;
+}
+
+main {}
+
+main h2 {}
+
+main figure {
+    margin: 0 0 .2rem 2%;
+    width: 96%;
+}
+
+main figure.myphoto {}
+
+main figure.myphoto img {
+
+    width: 100%;
+
+
+}
+
+.bike {
+    text-align: center;
+    align-content: flex-end;
+
+}
+
+
+main figure img {}
+
+footer {}
+
+.aligncenter {
+    text-align: center;
+}
+
+/*logo*/
+
+.aligncentera img {
+    text-align: center;
+    width: 100%;
+}
+
+.main-image {
+    width: 500px;
+}
+
+.weather-summary {
+    text-align: center;
+
+}
+
+.current {
+    color: #F2D02A;
+    font-size: 2em;
+    font-family: cursive;
+}
+
+.current img {
+    width: 100px;
+}
+
+/*
+.highlow {
+    font-size: 1em;
+    color: #315874;
+    margin-top: -0.5em;
+}
+
+.conditions {
+    color: #B6B7B7;
+    font-size: 1em;
+}
+*/
+
+.contact {
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    margin-top: 2em;
+    padding-top: 1.6em;
+    padding-bottom: 1.6em;
+    /*    border-radius: 15px;*/
+    color: #EFF3F3;
+    background-image: url(../images/finalfooter.jpg);
+    background-size: 100% 100%;
+    font-size: 15px;
+}
+
+/*
+.contact img {
+    width: 100%;
+    margin-bottom: em;
+    background-image: url(../images/finalfooter.jpg);
+}
+*/
+
+.footer-bar {
+    text-align: center;
+    color: #5B768D;
+
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    margin-bottom: 10em;
+
+}
+
+/*
+.forecast {
+    text-align: center;
+
+}
+
+table {
+    margin: 0 auto;
+    background-color: #b6b7b7;
+    border: 1px solid;
+    border-color: #b6b7b8;
+    width: 90%;
+    height: 3em;
+}
+
+tbody {
+    background-color: #efefef;
+}
+*/
+
+/* GRID */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    padding: 5px;
+}
+
+.grid-item {
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    padding: 5px;
+    /*    text-align: left;*/
+}
+
+.grid-item:hover {
+    box-shadow: 5px 5px 2px;
+    border-radius: 10px;
+    background-color: slategray;
+    color: #EA899A;
+}
+
+.grid-item img {
+    width: 100%;
+}
+
+/*thanks css*/
+
+.thankstree {
+    width: 40%;
+    align-items: center;
+}
+
+
+/*STORM CENTER*/
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.form-containera{
+    flex-direction: column;
+}
+.contact-form{
+    width: 50%;
+    margin: 0 auto;
+}
+.center {
+    text-align: center;
+}
+
+.shadow {
+    width: 10%;
+    height: 30px;
+    background-color: whitesmoke;
+    background-image: none;
+    color: #315874;
+
+}
+
+/*save button stormcenter*/
+
+.shadow:hover {
+    box-shadow: 5px 5px 2px;
+    background-color: slategray;
+    color: #EA899A;
+}
+
+fieldset {
+    line-height: 40px;
+    width: 100%;
+    padding-left: 20px;
+    border-radius: 10px;
+    border: 2px dotted lightgray;
+    background-size: cover;
+
+}
+
+
+
+/*
+.form-container :first-child{
+    margin-right: 10px;
+}
+*/
+
+legend {
+    font-size: 20px;
+    font-weight: bolder;
+    border: 2px solid lightgray;
+    border-radius: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: aliceblue;
+}
+
+main h1 {
+    text-align: center;
+}
+
+
+/*CSS FOR THE SECTION THAT CONTAINS THE JSON FILE*/
+
+.cities {
+    display: flex;
+    flex-direction: column;
+}
+
+.cities img {
+    width: 95%;
+    height: 50%;
+    align-self: center;
+}
+
+.cities div {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+
+.cities h5 {
+    margin: 0;
+}
+
+.articleCity {
+    /*    border: 4px solid #315874;*/
+    border-radius: 20px;
+    align-items: center;
+    text-align: center;
+    padding: 25px;
+    width: 90%;
+    margin: 10px;
+    box-shadow: 5px 5px 5px darkgray;
+}
+
+.ImgDiv img {
+    border-radius: 30px;
+}
+
+/*GOOGLE MAP*/
+
+.googlemap {
+    width: 70%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.foot {
+    margin-top: 20%;
+}
+
+#bicycle {
+    width: 40%;
+    width: 30%;
+    position: absolute;
+}
+
+#bicycle img {
+    width: 100%;
+}
+
+iframe{
+    width: 100%;
+    height: 100%;
+}

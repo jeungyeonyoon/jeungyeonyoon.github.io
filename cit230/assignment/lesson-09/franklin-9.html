@@ -35,7 +35,7 @@
         <h2>Franklin Weather</h2>
         <figure class="myphoto">
             <div class="aligncenter">
-<!--
+                <!--
                 <img src="images/franklin-small.jpg" alt="banner" 
                 srcset="images/franklin-small2.jpg 400w,
                 images/franklin-medium2.jpg 800w,
@@ -44,51 +44,35 @@
                        (max-width: 700px) 900px,
             1500px">
 -->
-                <picture><source srcset="images/franklin-small2.jpg" media="(max-width: 600px)">
-                <source srcset="images/franklin-medium2.jpg" media="(max-width:1024px)">
-                <source srcset="images/franklin-large2.jpg">
-                <img src="images/franklin-large2.jpg" id="main-image" alt="Franklinimage">
+                <picture>
+                    <source srcset="images/franklin-small2.jpg" media="(max-width: 600px)">
+                    <source srcset="images/franklin-medium2.jpg" media="(max-width:1024px)">
+                    <source srcset="images/franklin-large2.jpg">
+                    <img src="images/franklin-large2.jpg" id="main-image" alt="Franklinimage">
                 </picture>
             </div>
         </figure>
 
         <section class="weather-summary">
-            <!--
-            <h3>Weather Summary</h3>
-            <div class="highlow">
-                <p>High: <b><span id="h">85</span>&deg;F</b></p>
-                <p>Low: <b><span id="l">60</span>&deg;F</b></p>
-            </div>
-            <div class="current">
-                Sunny
-                <picture>
-                    <img src="images/sunny.png" alt="sunny">
-                </picture>
-            </div>
-            <div class="conditions">
-                <p>Temperature: <span id="temperature"></span>&deg;F</p>
-                <p>Precipitation : 10</p>
-                <p>Wind Speed: <span id="windspeed">5</span></p>
-                <p>Wind Chill : <span id="windoutput"></span></p>
-            </div>
--->
+
             <h3>Weather Summary for <span id="cityname"></span></h3>
             <div class="highlow">
                 <p>Teamperature: <b><span id="t"></span>&deg;F</b></p>
-                
+
             </div>
             <div class="current">
                 <p><span id="weather"></span></p>
-                
-                    <img id="weathericon" src="images/sunny.png" alt="sunny">
-                
+
+                <img id="weathericon" src="images/sunny.png" alt="sunny">
+
             </div>
             <div class="conditions">
                 <p>Feels like: <b><span id="feelslike"></span>&deg;F</b></p>
-        
+
                 <p>Precipitation : <span id="precip">10</span></p>
                 <p>Wind Speed: <span id="windspeed">5</span></p>
-                </div>
+                <p>Wind Chill: <span id="windoutput"> </span></p>
+            </div>
 
         </section>
 

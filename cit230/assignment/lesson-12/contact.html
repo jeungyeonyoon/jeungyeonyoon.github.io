@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Weather Site</title>
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/main-12.css">
+    <link rel="stylesheet" href="styles/medium-12.css">
+    <link rel="stylesheet" href="styles/large-12.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="aligncentera">
+            <img src="images/finallogo.jpg" alt="logo"></div>
+    </header>
+    <nav>
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="navMenu" class="hide">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="adventuretours.html">Adventure Tours</a></li>
+            <li><a href="event.html">Event</a></li>
+            <li><a href="sales.html">Sales</a></li>
+            <li><a href="services.html">Service</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1>Contact Inforamtion</h1>
+        <div>
+            <p class="aligncenter">Office hour: None<br> Website:
+                <a href="http://www.yooniqueidea.com">www.yooniqueidea.com </a>
+                <br><br>Address: 3950 Valley Commons Drive Bozeman, MT
+            </p>
+        </div>
+        <div class="googlemap">
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5575.863243477562!2d-111.090717!3d45.672273!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5345459ab72cb6df%3A0xbb98968f9648ea88!2s3950+Valley+Commons+Dr%2C+Bozeman%2C+MT+59718!5e0!3m2!1sen!2sus!4v1531303320873" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+        <h1>Contact Us</h1>
+        <form action="thanks.html" method="get">
+            <div class="form-containera contact-form">
+                <fieldset>
+                    <!--                    <legend>Personal Information</legend>-->
+
+                    <label>Full Name: </label>
+                    <input type="text" id="fullName" name="fullName" title="A minimun of five characters required" pattern="[A-Za-z -]{5,}" required>
+                    <br>
+                    <label>Phone Number: </label>
+                    <input type="tel" name="p" required placeholder="###-###-####">
+                    <br>
+                    <label>Email: </label>
+                    <input type="email" placeholder="name@domai.com">
+                    <label></label><br>
+                    <label>Birth Date</label><input type="date" required>
+                    <br>
+
+
+                    <!--                    <textarea name="message" rows="10" cols="35" placeholder="Please type any information." class="textcomment">Please add more information.</textarea>-->
+
+                </fieldset>
+                <br>
+                <div class="center"> <input type="submit" value="save" class="shadow"></div>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <div>
+
+            <section class="contact">
+                Contact information placeholder<br> 999.999.9999
+                <br> 3950 Valley Commons Drive Bozeman, MT<br> Google Map
+            </section>
+        </div>
+
+        <section class="footer-bar">&copy;2018 | All Rights Reserved | The Mountain Spoke | <span id="currentdate"></span>
+        </section>
+    </footer>
+
+    <script src="script/currentdate.js"></script>
+    <script src="script/w3.js"></script>
+    <script src="script/wayfinding.js"></script>
+    <script src="script/hambergur.js"></script>
+    <script src="script/modularize2.js"></script>
+
+    <!--Script for json-->
+    <!--    <script src='script/wu-weather.js'></script>-->
+</body>
+
+</html>

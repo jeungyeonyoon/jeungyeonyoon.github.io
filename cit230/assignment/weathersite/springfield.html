@@ -2,7 +2,7 @@
 <html lang="en-us">
 
 <head w3-include-html="modules/head.html">
-    
+
     <!--
 
     <meta charset="utf-8">
@@ -20,13 +20,13 @@
 
 <body>
     <header w3-include-html="modules/header.html">
-<!--
+        <!--
         <div class="aligncentera">
             <img src="images/logo2.png" alt="logo"></div>
 -->
     </header>
     <nav w3-include-html="modules/nav.html">
-<!--
+        <!--
         <button onclick="toggleMenu()">&#9776;</button>
         <ul id="navMenu" class="hide">
             <li><a href="index.html">Home</a></li>
@@ -53,30 +53,12 @@
         </figure>
 
         <section class="weather-summary">
-            <!--
-            <h3>Weather Summary</h3>
-            <div class="highlow">
-                <p>High: <b><span id="h">85</span>&deg;F</b></p>
-                <p>Low: <b><span id="l">60</span>&deg;F</b></p>
-            </div>
-            <div class="current">
-                Sunny
-                <picture>
-                    <img src="images/sunny.png" alt="sunny">
-                </picture>
-            </div>
-            <div class="conditions">
-                <p>Temperature: <span id="temperature"></span>&deg;F</p>
-                <p>Precipitation : 10</p>
-                <p>Wind Speed: <span id="windspeed">5</span></p>
-                <p>Wind Chill : <span id="windoutput"></span></p>
-            </div>
--->
+
             <h3>Weather Summary for <span id="cityname"></span></h3>
             <div class="highlow">
                 <p>Teamperature: <b><span id="temperature"></span>&deg;F</b></p>
             </div>
-             <div class="hlarray">
+            <div class="hlarray">
                 <p>Min Temperature : <span id="tempmin"></span>&deg;F</p>
             </div>
             <div class="hlarray">
@@ -160,7 +142,7 @@
 -->
 
     </footer>
-     <script src="script/currentdate.js"></script>
+    <script src="script/currentdate.js"></script>
     <script src="script/hamburger.js"></script>
     <script src="script/windchill.js"></script>
     <script src="script/springfield.js"></script>

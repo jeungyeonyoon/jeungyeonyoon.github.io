@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Weather Site</title>
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/main-12.css">
+    <link rel="stylesheet" href="styles/medium-12.css">
+    <link rel="stylesheet" href="styles/large-12.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="aligncentera">
+            <a hre="index.html"><img src="images/finallogo.jpg" alt="logo"></a></div>
+    </header>
+    <nav>
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="navMenu" class="hide">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="adventuretours.html">Adventure Tours</a></li>
+            <li><a href="event.html">Event</a></li>
+            <li><a href="sales.html">Sales</a></li>
+            <li><a href="services.html">Service</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="bike">
+            <h2>All you need is a Bike</h2>
+<!--            <div class="center"><input type="submit" value="register" class="shadow"></div>-->
+            <div><button>Register Now</button></div>
+            <br>
+            <figure class="myphoto">
+                <picture>
+                    <source srcset="images/main2medium.jpg" media="(max-width: 600px)">
+                    <source srcset="images/main2large.jpg" media="(max-width:1024px)">
+                    <source srcset="images/main2large.jpg">
+                    <img src="images/main2large.jpg" id="main-image" alt="image">
+                </picture>
+            </figure>
+        </div>
+        <br>
+        <div class=aligncentera><img src="images/bline-02.jpg" alt="line">
+        </div>
+
+        <!--This is where we are going to put our json information for the three cities-->
+        <br>
+        <section class="cities">
+            <img src="images/homeact1.jpg" alt="homeact">
+            <div>
+                <h3>You can't be sad while riding a bicycle</h3>
+                <p>Our primary purpose is providing amazing experiences with bicycle. You can have a good time with your lover. Or, you can enjoy your own time with a bicycle. Come, and get beautiful memories. </p>
+            </div>
+        </section><br>
+
+        <section class="cities">
+            <img src="images/homeact2.jpg" alt="homeact2">
+
+            <div>
+                <h3>All things are positive while bicycle wheels are keep moving
+                </h3>
+                <p>Join our bycicle trip with your friends and family. Refresh your mind. Keep moving forward. </p>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div>
+
+            <section class="contact">
+                Contact information placeholder<br> 999.999.9999
+                <br> 3950 Valley Commons Drive Bozeman, MT<br> Google Map
+            </section>
+        </div>
+
+        <section class="footer-bar">&copy;2018 | All Rights Reserved | The Mountain Spoke | <span id="currentdate"></span>
+        </section>
+    </footer>
+    <script src="script/currentdate.js"></script>
+    <script src="script/w3.js"></script>
+    <script src="script/wayfinding.js"></script>
+    <script src="script/hambergur.js"></script>
+    <script src="script/modularize2.js"></script>
+
+
+    <!--Script for json-->
+    <!--    <script src='script/wu-weather.js'></script>-->
+</body>
+
+</html>

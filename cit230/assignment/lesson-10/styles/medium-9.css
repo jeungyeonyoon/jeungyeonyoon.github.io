@@ -1,0 +1,86 @@
+@media only screen and (min-width: 37.5em) {
+
+    /* Only CSS write declarations that need to be changed. Do not duplicated declarations that are already established in the main.css */
+    nav button {
+        display: none;
+    }
+    /* hamburger button does not need to be shown in the medium on up views */
+    section.forecast {
+        display: block;
+    }
+
+    ul {
+        /*        list-style-type: none;*/
+        /*
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #AFDBF9;
+        maincss에 이미 들어있기 떄문
+*/
+    }
+
+    li {
+        /*        float: left;*/
+    }
+
+    li a {
+
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    li a:hover {
+        background-color: #111;
+
+    }
+    nav ul.hide {
+        display: block;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .hamburger {
+        display: none;
+    }
+
+
+    /*GRID*/
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    /*STORM CENTER*/
+    .form-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    /*CSS FOR THE SECTION THAT CONTAINS THE JSON FILE*/
+    .cities {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+    .cities :nth-child(even) {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .cities img {
+        width: 100%;
+    }
+    .articleCity {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 98%;
+    }
+    .articleCity {
+/*        border: 4px solid #315874;*/
+        border-radius: 20px;
+        padding: 25px;
+    }
+}

@@ -121,10 +121,11 @@ footer {}
     text-align: center;
 }
 
-.aligncentera img{
+.aligncentera img {
     text-align: center;
     width: 100%;
 }
+
 .main-image {
     width: 500px;
 }
@@ -140,7 +141,7 @@ footer {}
     font-family: cursive;
 }
 
-.current img{
+.current img {
     width: 100px;
 }
 
