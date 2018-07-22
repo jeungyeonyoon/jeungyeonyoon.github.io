@@ -150,10 +150,7 @@ footer {}
     width: 500px;
 }
 
-.weather-summary {
-    text-align: center;
 
-}
 
 .current {
     color: #F2D02A;
@@ -165,18 +162,6 @@ footer {}
     width: 100px;
 }
 
-/*
-.highlow {
-    font-size: 1em;
-    color: #315874;
-    margin-top: -0.5em;
-}
-
-.conditions {
-    color: #B6B7B7;
-    font-size: 1em;
-}
-*/
 
 .contact {
     width: 100%;
@@ -287,15 +272,6 @@ tbody {
     font-size: 20px;
 }
 
-/*thanks css*/
-
-.thankstree {
-    width: 40%;
-    align-items: center;
-}
-
-
-/*STORM or SERVICE*/
 
 .form-container {
     display: flex;
@@ -316,6 +292,8 @@ tbody {
     text-align: center;
 }
 
+/*save button*/
+
 .shadow {
     width: 10%;
     height: 30px;
@@ -324,8 +302,6 @@ tbody {
     color: #315874;
 
 }
-
-/*save button*/
 
 .shadow:hover {
     box-shadow: 5px 5px 2px;
@@ -342,7 +318,6 @@ fieldset {
     background-size: cover;
 
 }
-
 
 
 /*
