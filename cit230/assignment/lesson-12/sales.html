@@ -1,24 +1,30 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
-<head>
+<head w3-include-html="modules/head.html">
+<!--
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Weather Site</title>
     <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/main-12.css">
     <link rel="stylesheet" href="styles/medium-12.css">
     <link rel="stylesheet" href="styles/large-12.css">
     <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+-->
 </head>
 
 <body>
-    <header>
+    <header w3-include-html="modules/header.html">
+<!--
         <div class="aligncentera">
             <img src="images/finallogo.jpg" alt="logo"></div>
+-->
     </header>
-    <nav>
+    <nav w3-include-html="modules/nav.html">
+<!--
         <button onclick="toggleMenu()">&#9776;</button>
         <ul id="navMenu" class="hide">
             <li><a href="index.html">Home</a></li>
@@ -28,6 +34,7 @@
             <li><a href="services.html">Service</a></li>
             <li><a href="contact.html">Contact</a></li>
         </ul>
+-->
     </nav>
 
 
@@ -145,7 +152,8 @@
 
     </main>
 
-    <footer>
+    <footer w3-include-html="modules/footer.html">
+<!--
         <div>
 
             <section class="contact">
@@ -156,15 +164,18 @@
 
         <section class="footer-bar">&copy;2018 | All Rights Reserved | The Mountain Spoke | <span id="currentdate"></span>
         </section>
+-->
+        
     </footer>
 
     <script src="script/currentdate.js"></script>
     <script src="script/w3.js"></script>
     <script src="script/wayfinding.js"></script>
     <script src="script/hambergur.js"></script>
-    <script src="script/modularize2.js"></script>
+    
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="script/modularize2.js"></script>
     <script src="script/accordion.js"></script>
 
     <!--Script for json-->

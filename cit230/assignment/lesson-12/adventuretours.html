@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
-<head>
+<head w3-include-html="modules/head.html">
+<!--
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Weather Site</title>
@@ -10,15 +11,19 @@
     <link rel="stylesheet" href="styles/main-12.css">
     <link rel="stylesheet" href="styles/medium-12.css">
     <link rel="stylesheet" href="styles/large-12.css">
+-->
 
 </head>
 
 <body>
-    <header>
+    <header w3-include-html="modules/header.html">
+<!--
         <div class="aligncentera">
             <img src="images/finallogo.jpg" alt="logo"></div>
+-->
     </header>
-    <nav>
+    <nav w3-include-html="modules/nav.html">
+<!--
         <button onclick="toggleMenu()">&#9776;</button>
         <ul id="navMenu" class="hide">
             <li><a href="index.html">Home</a></li>
@@ -28,6 +33,7 @@
             <li><a href="services.html">Service</a></li>
             <li><a href="contact.html">Contact</a></li>
         </ul>
+-->
     </nav>
 
     <main>
@@ -47,32 +53,47 @@
         <section class="cities">
             
         </section><br>
+           <div class=aligncentera><img src="images/bline-02.jpg" alt="line">
+               <br>
         <div class="grid-container">
             <div class="grid-item">
-                <img src="https://target.scene7.com/is/image/Target/15305152_Alt01?wid=488&hei=488&fmt=webp" alt="image1">
-                <h4>The Mountain Tour</h4>
-                <p>People who really enjoy hard traning, we recommend you this course. 
-                </p>
-            </div>
-
-            <div class="grid-item">
-                <img src="https://target.scene7.com/is/image/Target/50684537?wid=488&hei=488&fmt=webp" alt="image2">
-                <h4>Head to the Local</h4>
-                <p></p>
-            </div>
-
-            <div class="grid-item">
-                <img src="https://target.scene7.com/is/image/Target/15287659?wid=488&hei=488&fmt=webp" alt="image3">
+                <img src="images/ad1.jpg" alt="image1">
                 <h4>Go On a Bike Picnic</h4>
-                <p></p>
+                <p>This adventure is for people who want to ride easy course.  
+                </p>
+                <h4>Level : Beginner</h4>
+                <h4>Length: 10 miles</h4>
+                <h4>Cost: 20$</h4>
+                <h4>Starting Point: South Bozeman foothills</h4>
+            </div>
+
+            <div class="grid-item">
+                <img src="images/ad2.jpg" alt="image2">
+                <h4>Head to the Local</h4>
+                <p>We depart from mountain to local.</p>
+                <h4>Level: Intermiate</h4>
+                <h4>Length: 20 miles</h4>
+                <h4>Cost: 25$ </h4>
+                <h4>Starting Point: Chestnut Mountain</h4>
+            </div>
+
+            <div class="grid-item">
+                <img src="images/ad3.jpg" alt="image3">
+                <h4>The Mountain Tour</h4>
+                <p>People who really enjoy hard traning, this is for you. </p>
+                <h4>Level: Rank </h4>
+                <h4>Length: 40 miles</h4>
+                <h4>Cost: 40$</h4>
+                <h4>Starting Point: Snowfill Recreation Area </h4>
             </div>
         </div>
-
+        </div>
     </main>
 
-    <footer>
+    <footer w3-include-html="modules/footer.html">
         <div>
 
+<!--
             <section class="contact">
                 Contact information placeholder<br> 999.999.9999
                 <br>3950 Valley Commons Drive Bozeman, MT<br> Google Map
@@ -81,6 +102,8 @@
 
         <section class="footer-bar">&copy;2018 | All Rights Reserved | The Mountain Spoke | <span id="currentdate"></span>
         </section>
+-->
+        </div>    
     </footer>
 
     <script src="script/currentdate.js"></script>

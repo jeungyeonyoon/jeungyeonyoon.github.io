@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head w3-include-html="modules/head.html">
+    <!--
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Weather Site</title>
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/main-12.css">
+    <link rel="stylesheet" href="styles/medium-12.css">
+    <link rel="stylesheet" href="styles/large-12.css">
+-->
+
+</head>
+
+<body>
+    <header w3-include-html="modules/header.html">
+        <!--
+        <div class="aligncentera">
+            <a hre="index.html"><img src="images/finallogo.jpg" alt="logo"></a></div>
+-->
+    </header>
+    <nav w3-include-html="modules/nav.html">
+        <!--
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="navMenu" class="hide">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="adventuretours.html">Adventure Tours</a></li>
+            <li><a href="event.html">Event</a></li>
+            <li><a href="sales.html">Sales</a></li>
+            <li><a href="services.html">Service</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+-->
+    </nav>
+
+    <main>
+        <div class="bike">
+            <h2>All you need is a Bike</h2>
+
+
+        </div>
+        <br>
+        <div class=aligncentera><img src="images/bline-02.jpg" alt="line">
+        </div>
+
+        <!--This is where we are going to put our json information for the three cities-->
+        <br>
+        <div>
+            <div class="aligncenter">
+            <button onclick="playPause()">Play/Pause</button>
+            </div>
+            <br>
+            <video id="video1">
+        <source src="images/bandicam%202018-07-21%2003-38-11-672.mp4" type="video/mp4">
+        <source src="images/bandicam%202018-07-21%2003-38-11-672.mp4" type="video/ogg">
+</video>
+        </div>
+    </main>
+
+    <footer w3-include-html="modules/footer.html">
+        <div>
+
+
+        </div>
+    </footer>
+    <script src="script/currentdate.js"></script>
+    <script src="script/wayfinding.js"></script>
+    <script src="script/hambergur.js"></script>
+    <script src="script/w3.js"></script>
+
+    <script src="script/modularize2.js"></script>
+    <script src="script/video.js"></script>
+
+    <!--Script for json-->
+    <!--    <script src='script/wu-weather.js'></script>-->
+</body>
+
+</html>

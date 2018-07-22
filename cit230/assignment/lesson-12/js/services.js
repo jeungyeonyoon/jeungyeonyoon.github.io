@@ -3,9 +3,9 @@ function myFunction(arr) {
     var i;
     for(i = 0; i < arr.length; i++) {
         out += '<tr><td>' + arr[i].name + '</td><td>' +
-        arr[i].price + '</td></tr>';
+        arr[i].price + '$'+ '</td></tr>' ;
     }
-    document.getElementById("tablea").innerHTML = out;
+    document.getElementById("tablea").innerHTML = out ;
 }
 
 /*var requestURL = 'js/services.json';

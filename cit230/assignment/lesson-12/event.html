@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
-<head>
+<head w3-include-html="modules/head.html">
+    <!--
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Weather Site</title>
@@ -10,15 +11,19 @@
     <link rel="stylesheet" href="styles/main-12.css">
     <link rel="stylesheet" href="styles/medium-12.css">
     <link rel="stylesheet" href="styles/large-12.css">
+-->
 
 </head>
 
 <body>
-    <header>
+    <header w3-include-html="modules/header.html">
+        <!--
         <div class="aligncentera">
             <img src="images/finallogo.jpg" alt="logo"></div>
+-->
     </header>
-    <nav>
+    <nav w3-include-html="modules/nav.html">
+        <!--
         <button onclick="toggleMenu()">&#9776;</button>
         <ul id="navMenu" class="hide">
             <li><a href="index.html">Home</a></li>
@@ -28,9 +33,20 @@
             <li><a href="services.html">Service</a></li>
             <li><a href="contact.html">Contact</a></li>
         </ul>
+-->
     </nav>
 
     <main>
+        <h1>Cycle the Continental Divide</h1>
+        <div class="aligncenter">
+            <h3>Dates: <span class="eventp">August 3rd - 5th</span></h3>
+            <h3>Route: <span class="eventp">I-15</span></h3>
+            <h3>Cost: <span class="eventp">500$</span></h3>
+            <h3>Basic Requirement: <span class="eventp">none</span></h3>
+            <h3></h3>
+
+        </div>
+        <div class="aligncentera"><img src="images/ContinentalDivideTrip.jpg" alt="continentaldivide"></div>
         <h1>Registration</h1>
         <form action="thanks.html" method="get">
             <div class="form-container">
@@ -164,9 +180,10 @@
         </div>
     </main>
 
-    <footer>
+    <footer w3-include-html="modules/footer.html">
         <div>
 
+            <!--
             <section class="contact">
                 Contact information placeholder<br> 999.999.9999
                 <br>3950 Valley Commons Drive Bozeman, MT<br> Google Map
@@ -175,6 +192,8 @@
 
         <section class="footer-bar">&copy;2018 | All Rights Reserved | The Mountain Spoke | <span id="currentdate"></span>
         </section>
+-->
+        </div>
     </footer>
     <script src="script/currentdate.js"></script>
     <script src="script/w3.js"></script>

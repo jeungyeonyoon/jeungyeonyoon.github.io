@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
-<head>
+<head w3-include-html="modules/head.html">
+<!--
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Weather Site</title>
@@ -10,17 +11,21 @@
     <link rel="stylesheet" href="styles/main-12.css">
     <link rel="stylesheet" href="styles/medium-12.css">
     <link rel="stylesheet" href="styles/large-12.css">
+-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
     <script src="script/jqueryani.js"></script>
 
 </head>
 
 <body class='service'>
-    <header>
+    <header w3-include-html="modules/header.html">
+<!--
         <div class="aligncentera">
             <img src="images/finallogo.jpg" alt="logo"></div>
+-->
     </header>
-    <nav>
+    <nav w3-include-html="modules/nav.html">
+<!--
         <button onclick="toggleMenu()">&#9776;</button>
         <ul id="navMenu" class="hide">
             <li><a href="index.html">Home</a></li>
@@ -30,21 +35,24 @@
             <li><a href="services.html">Service</a></li>
             <li><a href="contact.html">Contact</a></li>
         </ul>
+-->
     </nav>
 
     <main>
-        <table id="tablea">
-        </table>
-        <!--        <div style="background-image:images/bicycle-01.jpg"></div>-->
+                    <h2>All you need is a Bike</h2>
 
+        <table id="tablea">
+            <!-- json file-->
+        </table>
        
         <div id="bicycle">
             <img src="images/bicycle-01-01.png" alt="bicycle">
         </div>
     </main>
 
-    <footer class="foot">
-        <div>
+    <footer w3-include-html="modules/footer2.html" class="foot">
+<!--
+        <div class="foot">
 
             <section class="contact">
                 Contact information placeholder<br> 999.999.9999
@@ -54,6 +62,7 @@
 
         <section class="footer-bar">&copy;2018 | All Rights Reserved | The Mountain Spoke | <span id="currentdate"></span>
         </section>
+-->
     </footer>
 
     <script src="script/currentdate.js"></script>

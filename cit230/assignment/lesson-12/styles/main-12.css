@@ -210,6 +210,30 @@ footer {}
 
 }
 
+#tablea {
+    margin: 0 auto;
+    margin-top: 25px;
+    border: 4px solid black;
+    border-color: #b6b7b8;
+    width: 90%;
+    height: 3em;
+    border-radius: 25px;
+}
+
+#tablea tr {
+    padding: 20px;
+    border: 1px solid black;
+
+}
+
+#tablea td {
+    padding: 20px;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    width: 50%;
+    text-align: center;
+}
+
 /*
 .forecast {
     text-align: center;
@@ -246,6 +270,7 @@ tbody {
     /*    text-align: left;*/
 }
 
+
 .grid-item:hover {
     box-shadow: 5px 5px 2px;
     border-radius: 10px;
@@ -257,6 +282,11 @@ tbody {
     width: 100%;
 }
 
+.eventp {
+    color: gray;
+    font-size: 20px;
+}
+
 /*thanks css*/
 
 .thankstree {
@@ -265,7 +295,7 @@ tbody {
 }
 
 
-/*STORM CENTER*/
+/*STORM or SERVICE*/
 
 .form-container {
     display: flex;
@@ -273,13 +303,15 @@ tbody {
     padding: 10px;
 }
 
-.form-containera{
+.form-containera {
     flex-direction: column;
 }
-.contact-form{
+
+.contact-form {
     width: 50%;
     margin: 0 auto;
 }
+
 .center {
     text-align: center;
 }
@@ -293,7 +325,7 @@ tbody {
 
 }
 
-/*save button stormcenter*/
+/*save button*/
 
 .shadow:hover {
     box-shadow: 5px 5px 2px;
@@ -394,7 +426,18 @@ main h1 {
     width: 100%;
 }
 
-iframe{
+iframe {
     width: 100%;
     height: 100%;
+}
+
+footer a:visited {
+    color: #EA899A;
+}
+
+video {
+    width: 70%;
+    height: 100%;
+    margin: 0 auto;
+    margin-left: 15%;
 }

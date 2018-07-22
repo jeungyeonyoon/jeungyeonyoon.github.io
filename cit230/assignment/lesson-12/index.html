@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
-<head>
+<head w3-include-html="modules/head.html">
+    <!--
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Weather Site</title>
@@ -10,15 +11,19 @@
     <link rel="stylesheet" href="styles/main-12.css">
     <link rel="stylesheet" href="styles/medium-12.css">
     <link rel="stylesheet" href="styles/large-12.css">
+-->
 
 </head>
 
 <body>
-    <header>
+    <header w3-include-html="modules/header.html">
+        <!--
         <div class="aligncentera">
             <a hre="index.html"><img src="images/finallogo.jpg" alt="logo"></a></div>
+-->
     </header>
-    <nav>
+    <nav w3-include-html="modules/nav.html">
+        <!--
         <button onclick="toggleMenu()">&#9776;</button>
         <ul id="navMenu" class="hide">
             <li><a href="index.html">Home</a></li>
@@ -28,13 +33,14 @@
             <li><a href="services.html">Service</a></li>
             <li><a href="contact.html">Contact</a></li>
         </ul>
+-->
     </nav>
 
     <main>
         <div class="bike">
             <h2>All you need is a Bike</h2>
-<!--            <div class="center"><input type="submit" value="register" class="shadow"></div>-->
-            <div><button>Register Now</button></div>
+            <!--            <div class="center"><input type="submit" value="register" class="shadow"></div>-->
+            <div><a href="event.html"><button class="shadow">Register</button></a> now!!</div>
             <br>
             <figure class="myphoto">
                 <picture>
@@ -71,10 +77,11 @@
         </section>
     </main>
 
-    <footer>
+    <footer w3-include-html="modules/footer.html">
         <div>
 
-            <section class="contact">
+            <!--
+<section class="contact">
                 Contact information placeholder<br> 999.999.9999
                 <br> 3950 Valley Commons Drive Bozeman, MT<br> Google Map
             </section>
@@ -82,11 +89,14 @@
 
         <section class="footer-bar">&copy;2018 | All Rights Reserved | The Mountain Spoke | <span id="currentdate"></span>
         </section>
+-->
+        </div>
     </footer>
     <script src="script/currentdate.js"></script>
-    <script src="script/w3.js"></script>
     <script src="script/wayfinding.js"></script>
     <script src="script/hambergur.js"></script>
+    <script src="script/w3.js"></script>
+
     <script src="script/modularize2.js"></script>
 
 
